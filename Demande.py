@@ -11,7 +11,7 @@
 # Exemple d'utilisation
 
 # Solution 1 : Utiliser des doubles antislashs
-nom_fichier = "C:\\Users\\quent\\Desktop\\Projet Simu opti décisionnel\\20221004_Donnees_Simulation_Reelles_IWNET\\fichier_demande_4_1_12_52.txt"
+nom_fichier = "./20221004_Donnees_Simulation_Reelles_IWNET/fichier_demande_4_1_12_52.txt"
 lire_demande(nom_fichier)
 """
 """def lire_demande_chemin(nom_demandes_chemin):
@@ -24,7 +24,7 @@ lire_demande(nom_fichier)
     except Exception as e:
         print(f"Une erreur est survenue : {e}")
 
-nom_demandes_chemin="C:\\Users\\quent\\Desktop\\Projet Simu opti décisionnel\\20221004_Donnees_Simulation_Reelles_IWNET\\fichier_demandes_chemin_4_1_12_52.txt"
+nom_demandes_chemin="./20221004_Donnees_Simulation_Reelles_IWNET/fichier_demandes_chemin_4_1_12_52.txt"
 lire_demande_chemin(nom_demandes_chemin)
 """
 def lire_services(nom_services):
@@ -37,7 +37,7 @@ def lire_services(nom_services):
     except Exception as e:
         print(f"Une erreur est survenue : {e}")
 
-nom_services="C:\\Users\\quent\\Desktop\\Projet Simu opti décisionnel\\20221004_Donnees_Simulation_Reelles_IWNET\\fichier_services_4_1_12_52.txt"
+nom_services="./20221004_Donnees_Simulation_Reelles_IWNET/fichier_services_4_1_12_52.txt"
 lire_services(nom_services)
 
 
@@ -51,5 +51,5 @@ def lire_resultats(nom_resultats):
     except Exception as e:
         print(f"Une erreur est survenue : {e}")
 
-nom_resultats="C:\\Users\\quent\\Desktop\\Projet Simu opti décisionnel\\20221004_Donnees_Simulation_Reelles_IWNET\\Resultat_4_1_12_52.txt"
+nom_resultats="./20221004_Donnees_Simulation_Reelles_IWNET/Resultat_4_1_12_52.txt"
 lire_resultats(nom_resultats)
